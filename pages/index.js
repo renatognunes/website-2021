@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Renato G. Nunes</title>
+        <title>Renato - Full Stack Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -32,9 +32,9 @@ export default function Home() {
         </nav>
         <main className={styles.main}>
           <article className={styles.section}>
-            <h1 className={styles.title}>Hi, I'm Renato G. Nunes.</h1>
+            <h1 className={styles.title}>Hi, I'm Renato 👋</h1>
             <p className={styles.description}>
-              I'm a developer, traveler, and tech-enthusiastic, currently living in Sao Paulo. For
+              I'm a Full Stack Developer, traveler, and tech-enthusiastic, currently living in Sao Paulo. For
               the past three years, I have been fortunate enough to work on many challenging
               projects and be part of some incredibly talented engineering teams.
             </p>
@@ -43,30 +43,12 @@ export default function Home() {
             <h2 className={styles.headline}>Latest Articles</h2>
             <div className={styles.article}>
               <div>
-                <h3 className={styles.headline2}>Is React the new jQuery?</h3>
-                <span>
-                  <a
-                    href="https://medium.com/@renatognunes/is-react-the-new-jquery-610daa96773"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Read →
-                  </a>
-                </span>
-              </div>
-              <p className={styles.description}>
-                If jQuery is dead, and React is the new jQuery, will React eventually follow the
-                same path of its ancestor?
-              </p>
-            </div>
-            <div className={styles.article}>
-              <div>
                 <h3 className={styles.headline2}>
-                  React Hooks - Passing Child Component State Up with useRef
+                  From CSS Modules to Styled Components - for React Developers
                 </h3>
                 <span>
                   <a
-                    href="https://medium.com/@renatognunes/react-hooks-passing-child-component-state-up-with-useref-de88401c2654"
+                    href="https://medium.com/@renatognunes/styled-components-or-css-modules-for-react-developers-4eae5bf5cf25"
                     target="_blank"
                   >
                     Read →
@@ -74,9 +56,7 @@ export default function Home() {
                 </span>
               </div>
               <p className={styles.description}>
-                React Hooks still is a new topic for a lot of developers, specially if you are a
-                beginner. Getting your head around each hook functionality can be sometimes
-                overwhelming...
+                Using CSS Modules or Styled Components seems to have the same final result: styling the elements statically, but we often need to style the elements dynamically....
               </p>
             </div>
             <div className={styles.article}>
@@ -96,11 +76,41 @@ export default function Home() {
                 our React application.
               </p>
             </div>
+            <div className={styles.article}>
+              <div>
+                <h3 className={styles.headline2}>Is React the new jQuery?</h3>
+                <span>
+                  <a
+                    href="https://medium.com/@renatognunes/is-react-the-new-jquery-610daa96773"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read →
+                  </a>
+                </span>
+              </div>
+              <p className={styles.description}>
+                If jQuery is dead, and React is the new jQuery, will React eventually follow the
+                same path of its ancestor?
+              </p>
+            </div>
           </article>
           <article className={styles.section} id="projects">
             <h2 className={styles.headline}>Projects</h2>
 
             <div className={styles.grid}>
+              <a
+                href="https://www.fluxpanda.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.card}
+              >
+                <h3 className={styles.headline2}>Live Stream Selling & Commerce Platform</h3>
+                <p className={styles.description}>
+                  Full Stack development of a complex live stream and commerce platform using the latest web development technologies and best practices.
+                </p>
+              </a>
+
               <a
                 href="https://dev.decerp.coffeeinc.in/"
                 target="_blank"
@@ -136,7 +146,7 @@ export default function Home() {
                 <h3 className={styles.headline2}>Dynamic Website with CMS</h3>
                 <p className={styles.description}>
                   Leading end-to-end website development process using the JAMstack. Resulting in a
-                  dynamic, and responsive website with a easily maintainable codebase.
+                  dynamic, and responsive website with an easily maintainable codebase.
                 </p>
               </a>
 
@@ -157,13 +167,9 @@ export default function Home() {
         </main>
       </div>
 
+
       <footer className={styles.footer}>
         <ul>
-          <li>
-            <a href="https://twitter.com/renatognunes" target="_blank" rel="noopener noreferrer">
-              <FaTwitter />
-            </a>
-          </li>
           <li>
             <a href="https://github.com/renatognunes" target="_blank" rel="noopener noreferrer">
               <FaGithub />
@@ -181,6 +187,11 @@ export default function Home() {
           <li>
             <a href="https://medium.com/@renatognunes" target="_blank" rel="noopener noreferrer">
               <FaMediumM />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/renatognunes" target="_blank" rel="noopener noreferrer">
+              <FaTwitter />
             </a>
           </li>
         </ul>
