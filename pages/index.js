@@ -34,9 +34,7 @@ export default function Home() {
           <article className={styles.section}>
             <h1 className={styles.title}>Hi, I'm Renato 👋</h1>
             <p className={styles.description}>
-              I'm a Full Stack Developer, traveler, and tech-enthusiastic, currently living in Sao Paulo. For
-              the past three years, I have been fortunate enough to work on many challenging
-              projects and be part of some incredibly talented engineering teams.
+              I'm a Full Stack Developer with experience in web development, testing, architecture design, technical specifications and project planning. For the past four years, I have been fortunate enough to work on many challenging projects and be part of some incredibly talented engineering teams.
             </p>
           </article>
           <article className={styles.section}>
